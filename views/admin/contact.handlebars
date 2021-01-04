@@ -1,0 +1,17 @@
+<h1>Entre em contato conosco!</h1>
+<div class="card">
+    <div class="card-body">
+        <form action="/admin/contact/sent" method="POST">
+            <label for='nome'> Nome: </label>
+                <input type="text" name="nome" class="form-control" required>
+            <label for='email'> Email: </label>
+                <input type="text" name="email" class="form-control" required>
+             <label for='telCel'> Número para Contato: </label>
+                <input type="text" name="telCel"class="form-control" required>
+            <label for='mensagem'> Mensagem: </label>
+                <textarea name="mensagem" class="form-control" required></textarea>                       
+                <br>
+            <button type="submit" class="btn btn-success">Enviar</button>    
+        </form>
+    </div>
+</div>

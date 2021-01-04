@@ -1,0 +1,15 @@
+<h1>Adicione um novo serviço!</h1>
+<div class="card mt-4">
+    <div class="card-body">
+        <form action="/admin/services/send" method="POST">
+            <label for='nome'> Nome: </label>
+                <input type="text" name="nome" placeholder="Informe seu nome completo" class="form-control" required>
+            <label for='valor'> Valor: </label>
+                <input type="number" name="valor" placeholder="Informe seu email" class="form-control" required>
+            <label for='descricao'> Descrição: </label>
+                <textarea name="descricao" class="form-control" required></textarea>                       
+                <br>
+            <button type="submit" class="btn btn-success">Cadastrar</button>    
+        </form>
+    </div>
+</div>

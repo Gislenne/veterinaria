@@ -1,0 +1,16 @@
+<h2> Lista de contatos: </h2>
+<hr>
+
+{{#each contacts}}
+    <div class="card mt-4">
+        <div class="card-body">
+            <h4>{{name}}</h4>
+            <small>Email: {{email}}</small><br>
+            <small>Telefone: {{telCel}}</small><br>
+            <small>Data de criação: {{data}}</small><br>
+            <small>Menssagem: {{message}}</small><br>
+        </div>    
+    </div>
+{{else}}
+
+{{/each}}
