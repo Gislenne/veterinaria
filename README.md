@@ -13,7 +13,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 🚀 Como executar
 
 - Clone o repositório e acesse a pasta;
-- No arquivo `.env` preencha com as suas credenciais do GitHub;
 - Instale as dependências com `npm install`;
 - Faça a migração da base de dados para a sua conta `MongoDB`;  
 - Inicie o servidor com `node app.js`;
