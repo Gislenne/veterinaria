@@ -1,27 +1,19 @@
-# veterinaria
-Desenvolvimento web para utilizar em uma veterinária. Foi desenvolvido utilizando node.js, mongodb, html, css.
-
 <h1 align="center">WebSite de uma veterinária </h1>
+
+<p>Projeto desenvolvido com o intuito de mostrar os serviços oferencidos pela empresa de veterinária, assim como sua localidade meios de comunicação e agendamento de serviços</>
 
 ## ✨ Tecnologias utilizadas
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
-- [Prisma](https://www.prisma.io/)
-- [JSON Web Token](https://jwt.io/)
-- [Socket.IO](https://socket.io/)
+- [Mongoose](https://mongoosejs.com/)
+- [MongoDB](https://www.mongodb.com/pt-br)  
 
 ## 🚀 Como executar
 
-> Obs.: Nesse projeto temos autenticação via OAuth com o GitHub
 - Clone o repositório e acesse a pasta;
 - No arquivo `.env` preencha com as suas credenciais do GitHub;
-- Instale as dependências com `yarn`;
-- Executa as migrations com `yarn prisma migrate dev`;
-- Inicie o servidor com `yarn dev`;
-
-A aplicação pode ser acessada em [`localhost:4000`](http://localhost:4000).
----
-
-<h2 align="center">Backend da aplicação desenvolvida no evento NLW HEAT 2021 da Rocketseat 🚀</h2> 
+- Instale as dependências com `npm install`;
+- Faça a migração da base de dados para a sua conta `MongoDB`;  
+- Inicie o servidor com `node app.js`;
